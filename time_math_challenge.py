@@ -7,6 +7,7 @@ MIN_OPERAND = 3
 MAX_OPERAND = 12
 TOTAL_PROBLEM = 10
 
+
 def generate_problem():
     num_left = random.randint(MIN_OPERAND, MAX_OPERAND)
     num_right = random.randint(MIN_OPERAND, MAX_OPERAND)
